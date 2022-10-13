@@ -28,6 +28,6 @@ public class Genesis extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "com.colgrolool.genesis";
     }
 }
