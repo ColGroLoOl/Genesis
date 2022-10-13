@@ -1,24 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "genesis",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Genesis",
+  "description": "An addon for the Meteor",
   "authors": [
-    "seasnail"
+    "ColGroLoOl"
   ],
-  "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
-  },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/genesis/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "com.colgrolool.genesis.Genesis"
     ]
   },
   "mixins": [
-    "addon.mixins.json"
+    "gen.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
